@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{AEFEAAFC-3E3E-48D2-A410-9738FDF0FAC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{7EB193E6-35B1-4B6B-B6D3-82ABB9DC4111}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{50F1A9B7-8B24-4AC7-B6EC-7A72B1DBB788}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAuth.Core", "Source\OpenAuth.Core\OpenAuth.Core.csproj", "{CCB489EB-ADE0-4EFB-82B4-DB35BC586695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAuth.QQ", "Source\OpenAuth.QQ\OpenAuth.QQ.csproj", "{743F1B35-8D95-4AA1-A523-D54215E750C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAuth.Weixin", "Source\OpenAuth.Weixin\OpenAuth.Weixin.csproj", "{CF818380-7620-4FA2-BA13-DA76F720CE7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAuth.Weibo", "Source\OpenAuth.Weibo\OpenAuth.Weibo.csproj", "{4D55E081-C21E-4455-9620-5DB88EE62325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAuth.UnitTest", "Tests\OpenAuth.UnitTest\OpenAuth.UnitTest.csproj", "{AB3FC467-5F11-4B3E-8D8A-95D607F36E14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAuth.Baidu", "Source\OpenAuth.Baidu\OpenAuth.Baidu.csproj", "{D33D3345-67A5-4A38-BD49-FAD99D4EB290}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAuth.Taobao", "Source\OpenAuth.Taobao\OpenAuth.Taobao.csproj", "{11EE8AE0-CC0F-4C29-A77E-BB89C0A54009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAuth.Renren", "Source\OpenAuth.Renren\OpenAuth.Renren.csproj", "{F6BD9753-19AC-4B3F-B1F0-EE2E715FD8E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FBB52FBB-8D54-4C27-9C76-E48F71D3845C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCB489EB-ADE0-4EFB-82B4-DB35BC586695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB489EB-ADE0-4EFB-82B4-DB35BC586695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB489EB-ADE0-4EFB-82B4-DB35BC586695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB489EB-ADE0-4EFB-82B4-DB35BC586695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{743F1B35-8D95-4AA1-A523-D54215E750C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{743F1B35-8D95-4AA1-A523-D54215E750C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{743F1B35-8D95-4AA1-A523-D54215E750C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{743F1B35-8D95-4AA1-A523-D54215E750C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF818380-7620-4FA2-BA13-DA76F720CE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF818380-7620-4FA2-BA13-DA76F720CE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF818380-7620-4FA2-BA13-DA76F720CE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF818380-7620-4FA2-BA13-DA76F720CE7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D55E081-C21E-4455-9620-5DB88EE62325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D55E081-C21E-4455-9620-5DB88EE62325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D55E081-C21E-4455-9620-5DB88EE62325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D55E081-C21E-4455-9620-5DB88EE62325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB3FC467-5F11-4B3E-8D8A-95D607F36E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3FC467-5F11-4B3E-8D8A-95D607F36E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3FC467-5F11-4B3E-8D8A-95D607F36E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3FC467-5F11-4B3E-8D8A-95D607F36E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D33D3345-67A5-4A38-BD49-FAD99D4EB290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33D3345-67A5-4A38-BD49-FAD99D4EB290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33D3345-67A5-4A38-BD49-FAD99D4EB290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33D3345-67A5-4A38-BD49-FAD99D4EB290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11EE8AE0-CC0F-4C29-A77E-BB89C0A54009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11EE8AE0-CC0F-4C29-A77E-BB89C0A54009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11EE8AE0-CC0F-4C29-A77E-BB89C0A54009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11EE8AE0-CC0F-4C29-A77E-BB89C0A54009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6BD9753-19AC-4B3F-B1F0-EE2E715FD8E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6BD9753-19AC-4B3F-B1F0-EE2E715FD8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6BD9753-19AC-4B3F-B1F0-EE2E715FD8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6BD9753-19AC-4B3F-B1F0-EE2E715FD8E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCB489EB-ADE0-4EFB-82B4-DB35BC586695} = {7EB193E6-35B1-4B6B-B6D3-82ABB9DC4111}
+		{743F1B35-8D95-4AA1-A523-D54215E750C7} = {7EB193E6-35B1-4B6B-B6D3-82ABB9DC4111}
+		{CF818380-7620-4FA2-BA13-DA76F720CE7D} = {7EB193E6-35B1-4B6B-B6D3-82ABB9DC4111}
+		{4D55E081-C21E-4455-9620-5DB88EE62325} = {7EB193E6-35B1-4B6B-B6D3-82ABB9DC4111}
+		{AB3FC467-5F11-4B3E-8D8A-95D607F36E14} = {50F1A9B7-8B24-4AC7-B6EC-7A72B1DBB788}
+		{D33D3345-67A5-4A38-BD49-FAD99D4EB290} = {7EB193E6-35B1-4B6B-B6D3-82ABB9DC4111}
+		{11EE8AE0-CC0F-4C29-A77E-BB89C0A54009} = {7EB193E6-35B1-4B6B-B6D3-82ABB9DC4111}
+		{F6BD9753-19AC-4B3F-B1F0-EE2E715FD8E0} = {7EB193E6-35B1-4B6B-B6D3-82ABB9DC4111}
+	EndGlobalSection
+EndGlobal
